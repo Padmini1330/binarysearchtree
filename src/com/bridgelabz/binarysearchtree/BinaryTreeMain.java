@@ -25,8 +25,9 @@ public class BinaryTreeMain
 		
 		binaryTree.printBinaryTree();
 		
-		
 		System.out.println("The Size of the Binary Tree is : "+binaryTree.getSize());
+		System.out.println("Is 63 present in the Binary Search Tree? " + binaryTree.searchTree(63));
+		System.out.println("Is 32 present in the Binary Search Tree? " + binaryTree.searchTree(32));
 
 	}	
 
